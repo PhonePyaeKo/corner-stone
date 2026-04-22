@@ -86,7 +86,7 @@
 
     {{-- Global --}}
     <section class="w-full">
-        <div class="absolute">
+        <div class="relative">
             <img src="{{ asset('assets/images/Circle Background.jpg') }}" alt="" class="object-cover">
 
             <div class="pb-20">
@@ -107,11 +107,46 @@
                         </span>
                     </button>
                 </div>
-                <div class="w-[704px] h-[704px] border-1 z-2 border-[#DFC13F] rounded-full absolute right-[150px] top-[100px] flex justify-center items-center bg-white">
+                <div
+                    class="w-[704px] h-[704px] border-1  border-[#DFC13F] rounded-full absolute right-[150px] top-[100px] flex justify-center items-center bg-white">
                     <img src="{{ asset('assets/images/Global.png') }}" alt="">
                 </div>
             </div>
-
         </div>
     </section>
+
+    {{-- Mission Vision --}}
+    <section class="w-full h-[1228px] bg-[#A95634A6] px-[150px] py-25">
+        <div class="w-[1600px] h-[1028px] flex flex-col gap-10">
+            <div class="w-full h-[509px] flex flex-row gap-6">
+                <div class="w-[21px] h-[509px] rounded bg-white"></div>
+                <div class="w-[1571px] h-[509px] rounded bg-white flex flex-row justify-around items-center">
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="{{ asset('assets/images/Our Mission.png') }}" alt="">
+                        <h2 class="font-bold text-[52px]">Our MISSION</h2>
+                    </div>
+                    <div class="w-[875px] h-[378px] bg-[#A9563473] py-15 px-5">
+                        <p class="font-bold text-[35px] leading-[52px] text-center text-white">​To empower individuals
+                            through high-impact English language training, fostering the confidence needed to navigate
+                            academic, professional, and social environments worldwide.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[509px] flex flex-row gap-6">
+                <div class="w-[1571px] h-[509px] rounded bg-white flex flex-row justify-around items-center">
+                    <div class="w-[875px] h-[378px] bg-[#A9563473] py-15 px-8">
+                        <p class="font-bold text-[35px] leading-[52px] text-center text-white">​To be the global benchmark for English language education, where cultural exchange and academic rigor meet to create limitless opportunities for our students.</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="{{ asset('assets/images/Vision.png') }}" alt="">
+                        <h2 class="font-bold text-[52px]">Our Vision</h2>
+                    </div>
+
+                </div>
+                <div class="w-[21px] h-[509px] rounded bg-white"></div>
+            </div>
+        </div>
+    </section>
+
+    
 @endsection
