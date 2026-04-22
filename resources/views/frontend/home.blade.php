@@ -135,7 +135,9 @@
             <div class="w-full h-[509px] flex flex-row gap-6">
                 <div class="w-[1571px] h-[509px] rounded bg-white flex flex-row justify-around items-center">
                     <div class="w-[875px] h-[378px] bg-[#A9563473] py-15 px-8">
-                        <p class="font-bold text-[35px] leading-[52px] text-center text-white">​To be the global benchmark for English language education, where cultural exchange and academic rigor meet to create limitless opportunities for our students.</p>
+                        <p class="font-bold text-[35px] leading-[52px] text-center text-white">​To be the global benchmark
+                            for English language education, where cultural exchange and academic rigor meet to create
+                            limitless opportunities for our students.</p>
                     </div>
                     <div class="flex flex-col justify-center items-center">
                         <img src="{{ asset('assets/images/Vision.png') }}" alt="">
@@ -148,5 +150,50 @@
         </div>
     </section>
 
-    
+    {{-- why choose cornerstone --}}
+    <section class="w-full">
+        <div class="flex flex-col justify-center items-center px-30 py-15 gap-6">
+            <h2 class="font-bold text-[55px] leading-[100%]">Why Choose Cornerstone English Language Academy ?</h2>
+            <p class="font-medium text-[30px] text-center leading-[40px]">​We believe that learning English is about
+                unlocking doors to new careers, cultures, and connections. We don’t believe in one-size-fits-all learning.
+                Our academy is built on three core pillars designed to ensure your success:</p>
+            <div class="w-full flex justify-between">
+                <div class="font-bold text-[30px] leading-[52px] px-10 py-10 bg-gradient-to-b from-[#FFFFFF] to-[#DFC13F] w-[417px] h-[123px] shadow-2xs">
+                    ​Expert Instruction
+                </div>
+                <div class="font-medium text-[30px] leading-[40px] px-5 py-6 bg-gradient-to-b from-[#FFFFFF] to-[#DFC13F] w-[1250px] h-[123px] shadow-2xs">
+                    Learn from certified and experienced English language instructors who bring real-world experience into
+                    the classroom.
+                </div>
+            </div>
+            <div class="w-full flex justify-between">
+                <div class="font-bold text-[30px] leading-[52px] px-10 py-10 bg-gradient-to-b from-[#FFFFFF] to-[#DFC13F] w-[417px] h-[123px] shadow-2xs">
+                    ​​Immersive Curriculum
+                </div>
+                <div class="font-medium text-[30px] leading-[40px] px-5 py-6 bg-gradient-to-b from-[#FFFFFF] to-[#DFC13F] w-[1250px] h-[123px] shadow-2xs">
+                    Move beyond the textbook with interactive lessons focused on speaking, listening, reading, writing, grammar, and cultural nuance.
+                </div>
+            </div>
+            <div class="w-full flex justify-between">
+                <div class="font-bold text-[30px] leading-[52px] px-10 py-10 bg-gradient-to-b from-[#FFFFFF] to-[#DFC13F] w-[417px] h-[123px] shadow-2xs">
+                    ​Adaptive Learning
+                </div>
+                <div class="font-medium text-[30px] leading-[40px] px-5 py-6 bg-gradient-to-b from-[#FFFFFF] to-[#DFC13F] w-[1250px] h-[123px] shadow-2xs">
+                    Small class sizes and personalized feedback loops mean that you never get left behind.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- take a next step --}}
+    <section class="w-full">
+        <div class="relative">
+            <img src="{{ asset('assets/images/Take The Next Step Background.jpg') }}" alt="" class="object-cover">
+            
+            <div class="absolute w-[900px] h-[400px] left-[150px] top-[120px]">
+                <h2 class="font-bold leading-[100%] text-[55px] w-full h-[99px] mb-15">Take the Next Step in Your Career</h2>
+                <p class="font-bold leading-[52px] text-[35px]">​Don't miss this chance to boost your professional development! Enhance your English language proficiency and earn an internationally recognized diploma. Contact us today to enroll in our courses or register for your diploma assessment.</p>
+            </div>
+        </div>
+    </section>
 @endsection
