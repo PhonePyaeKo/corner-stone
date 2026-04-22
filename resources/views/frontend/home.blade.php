@@ -196,4 +196,13 @@
             </div>
         </div>
     </section>
+
+    {{-- Our Courses --}}
+    <section class="w-full">
+        <div class="mt-10 text-center flex flex-col gap-10 items-center">
+            <h2 class="font-bold text-[60px]">Our Courses</h2>
+            <div class="border-2 border-[#A95634] w-[1620px] h-[736px] rounded-2xl bg-gradient-to-b from-white/25 to-[#dfc13f]/25">
+            </div>
+        </div>
+    </section>
 @endsection
