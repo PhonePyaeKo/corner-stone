@@ -26,14 +26,14 @@
     </head>
 
 <body class="h-full font-space-grotesk">
-    <header class="max-w-[1440px] mx-auto">
+    <header class="max-w-[1920px] mx-auto">
         @include('frontend.partials.header')
     </header>
-    <main class="max-w-[1440px] mx-auto">
+    <main class="max-w-[1920px] mx-auto">
         <x-frontend.loader />
         @yield('content')
     </main>
-    <footer class="max-w-[1440px] mx-auto">
+    <footer class="max-w-[1920px] mx-auto">
         @include('frontend.partials.footer')
     </footer>
     @yield('scripts')
